@@ -1,11 +1,11 @@
 # CornerButton
 
-###效果
+### 效果
 
 ![CornerButton](20180310102456.png)
 
 
-###Gradle
+### Gradle
 ``` groovy
 allprojects {
 	repositories {
@@ -18,7 +18,7 @@ dependencies {
 }
 ```
 
-###可选属性
+### 可选属性
 <table>
   <tdead>
     <tr>
@@ -32,7 +32,7 @@ dependencies {
       	<td align="center">圆角大小</td>
     </tr>
     <tr>
-	 <td align="center">normal_color</td>
+     <td align="center">normal_color</td>
       	<td align="center">正常展示颜色，默认白色</td>
     </tr>
     <tr>
@@ -50,7 +50,8 @@ dependencies {
   </tbody>
 </table>
 
-###可用方法
+### 可用方法
+
 setNormalColor
 setPressedColor
 setStrokeColor
