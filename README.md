@@ -52,10 +52,10 @@ dependencies {
 
 ### 可用方法
 
-setNormalColor
-setPressedColor
-setStrokeColor
-setStrokeWidth
+setNormalColor </br>
+setPressedColor </br>
+setStrokeColor </br>
+setStrokeWidth </br>
 setCorner
 
 ### 更新日志 Update Logs
