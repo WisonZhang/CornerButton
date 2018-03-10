@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <com.wison.library.CornerButton
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/default_style" />
+
+    <com.wison.library.CornerButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/stroke_style"
+        app:stroke_color="@color/colorAccent"
+        app:stroke_width="1dp" />
+
+    <com.wison.library.CornerButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/corner_style"
+        app:corner="5dp"
+        app:stroke_color="@color/colorAccent"
+        app:stroke_width="1dp" />
+
+    <com.wison.library.CornerButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/big_corner_style"
+        app:corner="20dp"
+        app:stroke_color="@color/colorAccent"
+        app:stroke_width="1dp" />
+
+    <com.wison.library.CornerButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/change_color"
+        android:textColor="#FFFFFF"
+        app:normal_color="@color/colorPrimary"
+        app:corner="20dp"
+        app:stroke_color="@color/colorAccent"
+        app:stroke_width="2dp" />
+
+</LinearLayout>

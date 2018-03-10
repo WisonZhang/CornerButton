@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CornerButton</string>
+    <string name="default_style">默认样式</string>
+    <string name="stroke_style">加上边框</string>
+    <string name="corner_style">加上圆角</string>
+    <string name="big_corner_style">大圆角</string>
+    <string name="change_color">换颜色</string>
+</resources>

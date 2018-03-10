@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CornerButton">
+        <!-- 圆角大小 -->
+        <attr name="corner" format="dimension"/>
+        <!-- 按下颜色 -->
+        <attr name="pressed_color" format="reference|color"/>
+        <!-- 正常颜色 -->
+        <attr name="normal_color" format="reference|color"/>
+        <!-- 边框大小 -->
+        <attr name="stroke_width" format="dimension"/>
+        <!-- 边框颜色 -->
+        <attr name="stroke_color" format="reference|color"/>
+    </declare-styleable>
+</resources>
